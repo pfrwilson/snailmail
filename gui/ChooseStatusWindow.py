@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from PublicInfo import PublicInfo
+from data_classes.PublicInfo import PublicInfo
 
 
 class ChooseStatusWindow(tk.Toplevel):

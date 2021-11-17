@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from Message import Message
+from data_classes.Message import Message
 from tkinter import messagebox
 
 

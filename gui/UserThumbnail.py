@@ -1,6 +1,6 @@
 import tkinter as tk
-from PublicInfo import PublicInfo
-from Message import Message
+from data_classes.PublicInfo import PublicInfo
+from data_classes.Message import Message
 from tkinter import ttk
 from datetime import datetime
 

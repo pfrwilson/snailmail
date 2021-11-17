@@ -1,18 +1,18 @@
-from StorageUtility import StorageUtility
+from utils.StorageUtility import StorageUtility
 from tkinter import simpledialog
 import tkinter as tk
 from tkinter import ttk
-from LoginWindow import LoginWindow
+from gui.LoginWindow import LoginWindow
 from ClientNode import ClientNode
-from VerticalScrolledPane import VerticalScrolledPane
-from MessageThumbnail import MessageThumbnail
-from RegisterWindow import RegisterWindow
-from LoginWindow import LoginWindow
+from gui.VerticalScrolledPane import VerticalScrolledPane
+from gui.MessageThumbnail import MessageThumbnail
+from gui.RegisterWindow import RegisterWindow
+from gui.LoginWindow import LoginWindow
 from tkinter import messagebox
-from MessageEditorWindow import MessageEditorWindow
-from MessageDisplayWindow import MessageDisplayWindow
-from UserThumbnail import UserThumbnail
-from ChooseStatusWindow import ChooseStatusWindow
+from gui.MessageEditorWindow import MessageEditorWindow
+from gui.MessageDisplayWindow import MessageDisplayWindow
+from gui.UserThumbnail import UserThumbnail
+from gui.ChooseStatusWindow import ChooseStatusWindow
 
 
 class ClientMain(tk.Tk):

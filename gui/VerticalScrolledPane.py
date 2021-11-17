@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-from MessageThumbnail import MessageThumbnail
-from Message import Message
+from gui.MessageThumbnail import MessageThumbnail
+from data_classes.Message import Message
 
 
 class VerticalScrolledPane(ttk.Frame):

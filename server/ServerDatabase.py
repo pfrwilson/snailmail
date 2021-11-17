@@ -1,6 +1,6 @@
-from UserInfo import UserInfo
-from Message import Message
-from PublicInfo import PublicInfo
+from data_classes.UserInfo import UserInfo
+from data_classes.Message import Message
+from data_classes.PublicInfo import PublicInfo
 
 
 class ServerDatabase:

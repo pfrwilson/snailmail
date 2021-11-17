@@ -1,10 +1,9 @@
 from flask import Flask, request
 from ServerDatabase import ServerDatabase, ServerDatabaseException
-from dataclasses.Message import Message
-from dataclasses.PublicInfo import PublicInfo
+from data_classes.Message import Message
+from data_classes.PublicInfo import PublicInfo
 import jsonpickle
 from utils.StorageUtility import StorageUtility
-
 
 class ServerMain:
 
