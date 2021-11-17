@@ -11,7 +11,7 @@ class StorageUtility:
         self.__autosave_on = False
         self.__filename = filename
         home = os.path.expanduser('~')
-        save_directory = os.path.join(home, ".staffchat")
+        save_directory = os.path.join(home, ".snailmail")
         if not os.path.exists(save_directory):
             os.mkdir(save_directory)
         self.__filepath = os.path.join(save_directory, filename)

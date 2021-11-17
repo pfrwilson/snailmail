@@ -65,7 +65,7 @@ class ClientMain(tk.Tk):
         self.logged_in = False
         self.client_node: ClientNode = None
         self.setup_host_address()
-        self.title(f'StaffChat Messaging at Host Address {self.host_address}')
+        self.title(f'SnailMail Messaging at Host Address {self.host_address}')
 
     def show_inbox(self):
         if self.logged_in:

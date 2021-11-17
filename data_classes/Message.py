@@ -3,7 +3,7 @@ from datetime import datetime
 
 class Message:
     """An object which represent a message which may be sent by users
-    of StaffChat and stored in databases by the client and server programs"""
+    of SnailMail and stored in databases by the client and server programs"""
 
     def __init__(self, sender: str = None,
                  recipients: list[str] = None,
