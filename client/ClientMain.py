@@ -30,7 +30,7 @@ class ClientMain(tk.Tk):
         fr_left = tk.Frame(self, bd=2, relief=tk.RAISED)
         fr_left.grid(row=0, column=0, sticky='ns')
 
-        tk.Label(fr_left, text="StaffChat", font=('Calibri', 20, 'bold')).grid(row=0, column=0, pady=10, sticky='w')
+        tk.Label(fr_left, text="SnailMail", font=('Calibri', 20, 'bold')).grid(row=0, column=0, pady=10, sticky='w')
 
         tk.Button(fr_left, text="Inbox", command=self.show_inbox).grid(row=1, column=0, pady=10, sticky='ew')
         tk.Button(fr_left, text="Outbox", command=self.show_outbox).grid(row=2, column=0, pady=10, sticky='ew')
